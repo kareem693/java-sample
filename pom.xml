@@ -24,7 +24,12 @@
 </dependency>
   </dependencies>
  
-
+<distributionManagement>
+   <repository>
+      <id>nexus-snapshot</id>
+        <url>http://65.1.132.226:8081/repository/maven-snapshots/</url>
+   </repository>
+</distributionManagement>
   <build>
     <finalName>webappRunnerSample</finalName>
     <plugins>
