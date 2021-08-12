@@ -40,13 +40,13 @@
 
   </dependencies>
  
-<distributionManagement>
+<!--<distributionManagement>
    <snapshotRepository>
       <id>snapshots</id>
      <name>Internal Snapshot Release</name>
      <url>http://3.109.62.242:8081/repository/maven-snapshots/</url>
    </snapshotRepository>
-</distributionManagement>
+</distributionManagement> -->
   <build>
     <finalName>webappRunnerSample</finalName>
     <plugins>
